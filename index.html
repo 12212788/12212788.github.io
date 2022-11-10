@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+   <meta charset="UTF-8">
+   <title>求人要綱</title>
+ </head>
+ <body>
+   <div>
+    <header>
+      <h1>有限会社〇〇バイト求人要綱</h1>
+    </header>
+
+    <h2>募集職種</h2>
+
+    <body>
+    <h3>ホールスタッフ</h3>    
+    <table border="3" rules="all">
+     <tr>
+      <th>仕事内容</th>
+      <td>接客など</td>  
+     </tr>   
+     <tr>
+      <th>雇用形態</th>
+      <td>バイト※試用期間１か月あり</td>  
+     </tr>
+     <tr>
+      <th>給与</th>
+      <td>時給:900～（経験次第）</td>  
+     </tr>
+     <tr>
+      <th>昇給</th>
+      <td>出来高制</td>  
+     </tr>
+    
+    </table>
+
+    <h3>キッチンスタッフ</h3>    
+    <table border="3" rules="all">
+     <tr>
+      <th>仕事内容</th>
+      <td>キッチン全般</td>  
+     </tr>   
+     <tr>
+      <th>雇用形態</th>
+      <td>バイト※試用期間2か月あり</td>  
+     </tr>
+     <tr>
+      <th>給与</th>
+      <td>時給:920～(経験次第)</td>  
+     </tr>
+     <tr>
+      <th>昇給</th>
+      <td>出来高制</td>  
+     </tr>
+     
+    </table>
+    <h2>募集情報</h2>
+     <h3><ul>
+      <li>髪染め・ピアスOK</li>
+      <li>まかないあり</li>
+      <li>学生歓迎</li>
+    </ul></h3>
+    <hr>
+
+    <h1>応募フォーム</h1>
+    <form action="mailform.php" method="post">
+      
+    <h2>お名前</h2>
+    <p>
+     <input name="name" type="text">   
+    </p>    
+
+    <h2>応募職種</h2>
+    <p>
+     <select name="職種">
+      <option value="ホールスタッフ">WEBエンジニア</option>
+      <option value="キッチンスタッフ">秘書・事務スタッフ</option>  
+     </select>   
+    </p>
+
+    <h2>性別</h2>
+    <p>
+     <input type="checkbox" name="radio" value="男">男  
+     <input type="checkbox" name="radio" value="女">女
+    </p>
+
+    <h2>メールアドレス</h2>
+    <p>
+     <input name="mailadles" type="text">
+    </p>
+
+    <h2>志望動機</h2>
+    <p>
+     <textarea name="comment" cols="50" rows="5"></textarea>   
+    </p>
+
+    <p>
+     <input name="submit" type="submit" value="確認画面へ">   
+    </p>
+    </form>
+    </body>
